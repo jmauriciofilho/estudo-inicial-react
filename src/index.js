@@ -7,10 +7,12 @@ import Clock from "./Clock";
 import Clock2 from "./Clock2";
 import Props from "./Props";
 import State from "./State";
+import Event from "./Event";
+import Event2 from "./Event2";
 import * as serviceWorker from './serviceWorker';
 
 // ReactDOM.render(<Props attr='Value' attr2='Value2'/>, document.getElementById('root'));
-ReactDOM.render(<Clock2 />, document.getElementById('root'));
+ReactDOM.render(<Event2 />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
